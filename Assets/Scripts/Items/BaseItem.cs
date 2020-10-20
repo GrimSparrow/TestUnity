@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BaseItem : ScriptableObject, IEquipableItem
+public class BaseItem : ScriptableObject
 {
     #region Fields
 
@@ -11,7 +11,7 @@ public class BaseItem : ScriptableObject, IEquipableItem
     private string  itemName;
     
     [SerializeField] 
-    private IntVector2 itemSize;
+    private Vector2Int itemSize;
     
     [SerializeField] 
     private int strength;
@@ -34,7 +34,7 @@ public class BaseItem : ScriptableObject, IEquipableItem
         set => itemName = value;
     }
 
-    public IntVector2 ItemSize
+    public Vector2Int ItemSize
     {
         get => itemSize;
         set => itemSize = value;
@@ -61,7 +61,7 @@ public class BaseItem : ScriptableObject, IEquipableItem
 
     #region MainFunctionality
 
-    public IEquipableItem CreateInstance()
+    public BaseItem CreateInstance()
     {
         var clone = Instantiate(this);
         return clone;

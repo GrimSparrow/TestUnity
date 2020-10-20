@@ -68,7 +68,7 @@ public class ShipSchemeGenerator : ScriptableObject
 
         result.GetComponent<RectTransform>().localScale = Vector3.one;
         result.transform.name = $"{x},{y}";
-        result.GetComponent<Slot>().GridPos = new IntVector2(x, y);
+        result.GetComponent<Slot>().GridPos = new Vector2Int(x, y);
 
         return result;
     }

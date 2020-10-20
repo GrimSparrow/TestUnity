@@ -9,7 +9,7 @@ public class DragElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     private Sprite mainImage;
 
     [SerializeField]
-    private IntVector2 itemSize;
+    private Vector2Int itemSize;
     
     [SerializeField]
     private Transform defaultParentTransform;
@@ -35,7 +35,7 @@ public class DragElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         set => mainImage = value;
     }
 
-    public IntVector2 ItemSize
+    public Vector2Int ItemSize
     {
         get => itemSize;
         set => itemSize = value;
@@ -98,10 +98,10 @@ public class DragElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        ShipController.ItemSize = itemSize;
+        ShipController.Instance.ItemSize = itemSize;
         canvasGroup.blocksRaycasts = false;
         selected = Instantiate(gameObject, DragParentTransform, true);
-        ShipController.SelectedItem = selected;
+        ShipController.Instance.SelectedItem = selected;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -113,8 +113,8 @@ public class DragElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void OnEndDrag(PointerEventData eventData)
     {
         Destroy(selected);
-        ShipController.ItemSize = IntVector2.zero;
-        ShipController.SelectedItem = null;
+        ShipController.Instance.ItemSize = Vector2Int.zero;
+        ShipController.Instance.SelectedItem = null;
         canvasGroup.blocksRaycasts = true;
     }
 

@@ -5,8 +5,8 @@ public class Slot : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerE
 {
     #region Fields
 
-    private IntVector2 gridPos;
-    private IntVector2 startItemPos;
+    private Vector2Int gridPos;
+    private Vector2Int startItemPos;
     private BaseItem storedItem;
     
     private bool isOccupied = false;
@@ -16,13 +16,13 @@ public class Slot : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerE
 
     #region Properties
 
-    public IntVector2 GridPos
+    public Vector2Int GridPos
     {
         get => gridPos;
         set => gridPos = value;
     }
 
-    public IntVector2 StartItemPos
+    public Vector2Int StartItemPos
     {
         get => startItemPos;
         set => startItemPos = value;

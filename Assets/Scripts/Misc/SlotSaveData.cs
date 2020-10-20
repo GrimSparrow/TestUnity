@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class SlotSaveData
@@ -7,7 +8,7 @@ public class SlotSaveData
 
     private String itemName;
     
-    private IntVector2 startItemPos;
+    private Vector2Int startItemPos;
 
     #endregion
 
@@ -19,7 +20,7 @@ public class SlotSaveData
         set => itemName = value;
     }
 
-    public IntVector2 StartItemPos
+    public Vector2Int StartItemPos
     {
         get => startItemPos;
         set => startItemPos = value;

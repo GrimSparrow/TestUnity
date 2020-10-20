@@ -49,7 +49,7 @@ public class ResourcesManager : MonoBehaviour
 
         allItems = Resources.LoadAll<BaseItem>("Items").ToList();
         
-        allShips = Resources.LoadAll<ShipSchemeGenerator>("ShipShcemes").ToList();
+        allShips = Resources.LoadAll<ShipSchemeGenerator>("ShipSchemes").ToList();
     }
 
     #endregion

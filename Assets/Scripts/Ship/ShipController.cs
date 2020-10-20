@@ -4,17 +4,24 @@ using UnityEngine.UI;
 
 public class ShipController : MonoBehaviour
 {
-    #region Fields
+    private enum CheckCellState
+    {
+        Empty,
+        FilledByOne,
+        FullFilled
+    }
 
-    private static IntVector2 itemSize;
-    
-    private static int checkInt;
-    
-    private static GameObject selectedItem;
+    #region Fields
     
     private static ShipController instance;
 
-    private IntVector2 otherItemPos = IntVector2.zero;
+    private Vector2Int itemSize;
+    
+    private CheckCellState checkInt;
+    
+    private GameObject selectedItem;
+
+    private Vector2Int otherItemPos = Vector2Int.zero;
 
     private ShipViewer grid;
 
@@ -24,13 +31,13 @@ public class ShipController : MonoBehaviour
 
     #region Properties
 
-    public static IntVector2 ItemSize
+    public Vector2Int ItemSize
     {
         get => itemSize;
         set => itemSize = value;
     }
 
-    public static GameObject SelectedItem
+    public GameObject SelectedItem
     {
         get => selectedItem;
         set => selectedItem = value;
@@ -127,15 +134,15 @@ public class ShipController : MonoBehaviour
         
         switch (checkInt)
         {
-            case 0: //устанавливаем в пустую ячейку
+            case CheckCellState.Empty: //устанавливаем в пустую ячейку
                 StoreItem(slot);
                 break;
-            case 1: //устанавливаем в занятую ячейку
+            case CheckCellState.FilledByOne: //устанавливаем в занятую ячейку
                 var otherSlot = grid.SlotGrid[otherItemPos.x, otherItemPos.y].GetComponent<Slot>();
                 RemoveItem(otherSlot);
                 StoreItem(slot);
                 break;
-            case 2: //Занято двумя элементами, запрещено заменять
+            case CheckCellState.FullFilled: //Занято двумя элементами, запрещено заменять
                 LeaveSlot(slot);
                 break;
         }
@@ -208,19 +215,19 @@ public class ShipController : MonoBehaviour
         }
     }
 
-    private Color GetColor(int checkId)
+    private Color GetColor(CheckCellState checkState)
     {
         var color = Color.white;
         
-        switch (checkId)
+        switch (checkState)
         {
-            case 0:
+            case CheckCellState.Empty:
                 color = Color.green;
                 break;
-            case 1:
+            case CheckCellState.FilledByOne:
                 color = Color.yellow;
                 break;
-            case 2:
+            case CheckCellState.FullFilled:
                 color = Color.red; 
                 break;
         }
@@ -237,7 +244,7 @@ public class ShipController : MonoBehaviour
             if (enter)
             {
                 color = Color.red;
-                checkInt = 2;
+                checkInt = CheckCellState.FullFilled;
             }  
         }
         for (var y = 0; y < checkArea.y; y++)
@@ -251,9 +258,9 @@ public class ShipController : MonoBehaviour
         }
     }
     
-    private int SlotCheck(Slot slot)
+    private CheckCellState SlotCheck(Slot slot)
     {
-        IEquipableItem obj = null;
+        BaseItem obj = null;
         var checkArea = GetCheckArea(slot);
 
         for (var y = 0; y < checkArea.y; y++)
@@ -263,7 +270,7 @@ public class ShipController : MonoBehaviour
                 var currentSlot = grid.SlotGrid[x + slot.GridPos.x, y + slot.GridPos.y].GetComponent<Slot>();
                 if (currentSlot.IsBlocked)
                 {
-                    return 2;
+                    return CheckCellState.FullFilled;
                 }
                 if (currentSlot.IsOccupied)
                 {
@@ -274,18 +281,18 @@ public class ShipController : MonoBehaviour
                     }
                     else if (obj != currentSlot.StoredItem)
                     {
-                        return 2;
+                        return CheckCellState.FullFilled;
                     }
                 }
             }
         }
         
-        return obj == null ? 0 : 1;
+        return obj == null ? CheckCellState.Empty : CheckCellState.FilledByOne;
     }
 
-    private IntVector2 GetCheckArea(Slot slot)
+    private Vector2Int GetCheckArea(Slot slot)
     {
-        IntVector2 checkArea;
+        Vector2Int checkArea = Vector2Int.zero;
         
         checkArea.x = Mathf.Clamp(itemSize.x, 0, grid.SlotGrid.GetLength(0) - slot.GridPos.x);
         checkArea.y = Mathf.Clamp(itemSize.y, 0, grid.SlotGrid.GetLength(1) - slot.GridPos.y);
