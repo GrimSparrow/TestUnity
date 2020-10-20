@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="929a4f92-0c86-4fa1-a2a3-311ad3107474" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/67F3389B-0115-4CD4-9B41-ADC3C82E9056/20/a09f4a21/0200000Fpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Тестовое задание Herocraft/Assets/Scripts/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/29/3741fc6a/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/ResourcesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/a2/7b98a589/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/SlotSaveData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E71BB436-2C24-4285-9556-64E9C6A3DEBC/8e/001b7e74/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DE66FF1-1FCB-4513-8463-255B392B032B/92/d18558d9/DisplayNameAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/GridManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/hmm/SlotScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ship.cs" />
+        <option value="$PROJECT_DIR$/Assets/hmm/PanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/hmm/IntVector2.cs" />
+        <option value="$PROJECT_DIR$/Assets/hmm/ItemScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/hmm/InventoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/BaseItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/BaseArmorItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/BaseSupplyItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/BaseWeaponItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/BallistickWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/LaserWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/EngineSupply.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/SteelArmor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/IEquipableItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShipSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Items/ShipSchemeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShipViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/BaseSupplyItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/BaseArmorItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/BaseWeaponItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/BallistickWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/LaserWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/EngineSupply.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/SteelArmor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Helpers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/Slot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ConfirmationWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/BaseItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSelector/DragElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSelector/DragPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Misc/ResourcesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Misc/SlotSaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Misc/IntVector2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipSchemeGenerator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iNN4pRoPbIXEOB9nHisTrxJYCB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.16738895" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.14355363" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="929a4f92-0c86-4fa1-a2a3-311ad3107474" name="Default Changelist" comment="" />
+      <created>1601743901292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601743901292</updated>
+      <workItem from="1601743914479" duration="301000" />
+      <workItem from="1601750411833" duration="4983000" />
+      <workItem from="1601760083334" duration="44307000" />
+      <workItem from="1601974506883" duration="9083000" />
+      <workItem from="1601994371471" duration="22668000" />
+      <workItem from="1602063034686" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="693" height="767" key="DebuggerActiveHint" timestamp="1602016190201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="693" height="767" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1602016190201" />
+    <state width="1877" height="29" key="GridCell.Tab.0.bottom" timestamp="1602015109959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109959" />
+    <state width="1877" height="29" key="GridCell.Tab.0.center" timestamp="1602015109958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109958" />
+    <state width="1877" height="29" key="GridCell.Tab.0.left" timestamp="1602015109957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109957" />
+    <state width="1877" height="29" key="GridCell.Tab.0.right" timestamp="1602015109958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109958" />
+    <state width="1877" height="29" key="GridCell.Tab.1.bottom" timestamp="1602015117468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602015117468" />
+    <state width="1877" height="29" key="GridCell.Tab.1.center" timestamp="1602015117468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602015117468" />
+    <state width="1877" height="29" key="GridCell.Tab.1.left" timestamp="1602015117468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602015117468" />
+    <state width="1877" height="29" key="GridCell.Tab.1.right" timestamp="1602015117468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602015117468" />
+    <state width="1877" height="29" key="GridCell.Tab.2.bottom" timestamp="1602015109276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109276" />
+    <state width="1877" height="29" key="GridCell.Tab.2.center" timestamp="1602015109275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109275" />
+    <state width="1877" height="29" key="GridCell.Tab.2.left" timestamp="1602015109275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109275" />
+    <state width="1877" height="29" key="GridCell.Tab.2.right" timestamp="1602015109276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109276" />
+    <state width="1877" height="29" key="GridCell.Tab.3.bottom" timestamp="1602015109277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109277" />
+    <state width="1877" height="29" key="GridCell.Tab.3.center" timestamp="1602015109276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109276" />
+    <state width="1877" height="29" key="GridCell.Tab.3.left" timestamp="1602015109276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109276" />
+    <state width="1877" height="29" key="GridCell.Tab.3.right" timestamp="1602015109277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="29" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602015109277" />
+    <state x="1249" y="221" key="RiderGenerateDialog" timestamp="1601811432352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1249" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601811432352" />
+    <state x="576" y="253" width="870" height="534" key="find.popup" timestamp="1602063110490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="253" width="870" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602063110490" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601998787559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601998787559" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/hmm/InventoryManager.cs</url>
+          <line>72</line>
+          <properties documentPath="C:\Тестовые задания\Тестовое задание HeroCraft\Тестовое задание\Тестовое задание\Assets\hmm\InventoryManager.cs" initialLine="70" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/hmm/InventoryManager.cs</url>
+          <line>71</line>
+          <properties documentPath="C:\Тестовые задания\Тестовое задание HeroCraft\Тестовое задание\Тестовое задание\Assets\hmm\InventoryManager.cs" initialLine="69" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#UnityEngine.Events.UnityEventBase" memberName="m_Calls" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
